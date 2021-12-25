@@ -1,7 +1,11 @@
 Script
 
 ```
- sudo su && add-apt-repository ppa:openjdk-r/ppa && apt-get update && apt-get install bison build-essential curl ccache flex lib32ncurses5-dev lib32z1-dev libncurses5-dev libsdl1.2-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev git-core make gperf openjdk-8-jdk
+ sudo su && add-apt-repository ppa:openjdk-r/ppa
+```
+ 
+```
+apt-get update && apt-get install bison build-essential curl ccache flex lib32ncurses5-dev lib32z1-dev libncurses5-dev libsdl1.2-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev git-core make gperf openjdk-8-jdk
 ```
 
 ```
