@@ -9,7 +9,12 @@ apt-get update && apt-get install bison build-essential curl ccache flex lib32nc
 ```
 
 ```
-exit && mkdir ~/bin && PATH=~/bin:$PATH && cd ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo && git clone https://github.com/akhilnarang/scripts && cd scripts && bash setup/android_build_env.sh
+exit
+```
+
+
+```
+mkdir ~/bin && PATH=~/bin:$PATH && cd ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo >~/bin/repo && chmod a+x ~/bin/repo && git clone https://github.com/akhilnarang/scripts && cd scripts && bash setup/android_build_env.sh
  ```
 
 Github profile config
