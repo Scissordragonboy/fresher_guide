@@ -1,7 +1,12 @@
-Script
+# Script
 
 ```
- sudo su && add-apt-repository ppa:openjdk-r/ppa
+ sudo su
+```
+
+
+```
+ add-apt-repository ppa:openjdk-r/ppa
 ```
  
 ```
