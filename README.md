@@ -40,3 +40,15 @@ Github profile config
  git config --global user.email "Scissordragonboy@gmail.com" &&  git config --global user.name "Scissordragonboy"
  ```
 
+# Download rom source now
+
+```
+repo init -u https://github.com/Octavi-OS/platform_manifest.git -b 12 --depth=1
+```
+
+# then sync source code
+```
+repo sync -c -f --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j8
+```
+
+
