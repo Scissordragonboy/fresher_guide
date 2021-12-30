@@ -21,6 +21,18 @@ exit
 ```
 mkdir ~/bin && PATH=~/bin:$PATH && cd ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo >~/bin/repo && chmod a+x ~/bin/repo && git clone https://github.com/akhilnarang/scripts && cd scripts && bash setup/android_build_env.sh
  ```
+ 
+# After finished build environment
+
+```
+mkdir octavi
+```
+
+```
+cd octavi
+```
+
+# Then config your github identity
 
 Github profile config
 
