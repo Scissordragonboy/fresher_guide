@@ -84,6 +84,15 @@ gem install rmega
 rmega-up filename -u gmail-id
 ```
 
+# SOURCEFORE UPLOAD COMMAND LINE
+
+```
+sftp teamslow@web.sourceforge.net
+```
+cd /home/frs/project/projectname/folder-to-upload
+
+
+
 
 
 
