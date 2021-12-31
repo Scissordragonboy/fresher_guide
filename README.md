@@ -89,8 +89,10 @@ rmega-up filename -u gmail-id
 ```
 sftp teamslow@web.sourceforge.net
 ```
-cd /home/frs/project/projectname/folder-to-upload
 
+```
+cd /home/frs/project/projectname/folder-to-upload
+```
 
 
 
