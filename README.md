@@ -36,6 +36,7 @@ cd octavi
 
 Github profile config
 
+
 ```
  git config --global user.email "Scissordragonboy@gmail.com" &&  git config --global user.name "Scissordragonboy"
  ```
@@ -63,3 +64,32 @@ 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
 mkdir -p /tmp/ccache && export CCACHE_DIR=/tmp/ccache && export CCACHE_EXEC=$(which ccache) && export USE_CCACHE=1 && ccache -M 40G && ccache -z
 ```
 
+# MEGA DOWNLOAD FROM TERMINAL LINE
+
+```
+megadl 'https://mega.nz/#!KWp1lQpD!x1yUoWsjkzjefYPlB8HePBD-OE1NjwzU0Up1tUTv2Jk'
+```
+
+# MEGA UPLOAD FROM TERMINAL LINE
+
+```
+sudo apt install ruby gem
+```
+
+```
+gem install rmega
+```
+
+```
+rmega-up filename -u gmail-id
+```
+
+
+
+
+
+
+
+
+
+# 
