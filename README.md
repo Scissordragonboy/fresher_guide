@@ -51,4 +51,15 @@ repo init -u https://github.com/Octavi-OS/platform_manifest.git -b 12 --depth=1
 repo sync -c -f --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j8
 ```
 
+# Github is ghey now
+
+```
+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
+```
+
+# Ccache build issues with roms
+
+```
+mkdir -p /tmp/ccache && export CCACHE_DIR=/tmp/ccache && export CCACHE_EXEC=$(which ccache) && export USE_CCACHE=1 && ccache -M 40G && ccache -z
+```
 
