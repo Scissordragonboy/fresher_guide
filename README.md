@@ -55,7 +55,7 @@ repo sync -c -f --force-sync --optimized-fetch --no-tags --no-clone-bundle --pru
 # Github is ghey now
 
 ```
-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
+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
 ```
 
 # Ccache build issues with roms
