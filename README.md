@@ -19,7 +19,7 @@ exit
 
 
 ```
-mkdir ~/bin && PATH=~/bin:$PATH && cd ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo >~/bin/repo && chmod a+x ~/bin/repo && git clone https://github.com/akhilnarang/scripts && cd scripts && bash setup/android_build_env.sh && . b*/e* && lunch lineage_miatoll-userdebug && brunch lineage_miatoll-userdebug
+mkdir ~/bin && PATH=~/bin:$PATH && cd ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo >~/bin/repo && chmod a+x ~/bin/repo && git clone https://github.com/akhilnarang/scripts && cd scripts && bash setup/android_build_env.sh
  ```
  
 # After finished build environment
@@ -61,7 +61,7 @@ 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
 # Ccache build issues with roms
 
 ```
-mkdir -p /tmp/ccache && export CCACHE_DIR=/tmp/ccache && export CCACHE_EXEC=$(which ccache) && export USE_CCACHE=1 && ccache -M 40G && ccache -z
+mkdir -p /tmp/ccache && export CCACHE_DIR=/tmp/ccache && export CCACHE_EXEC=$(which ccache) && export USE_CCACHE=1 && ccache -M 40G && ccache -z && . b*/e* && lunch lineage_miatoll-userdebug && brunch lineage_miatoll-userdebug
 ```
 
 # MEGA DOWNLOAD FROM TERMINAL LINE
