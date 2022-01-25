@@ -19,7 +19,7 @@ exit
 
 
 ```
-mkdir ~/bin && PATH=~/bin:$PATH && cd ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo >~/bin/repo && chmod a+x ~/bin/repo && git clone https://github.com/akhilnarang/scripts && cd scripts && bash setup/android_build_env.sh
+mkdir ~/bin && PATH=~/bin:$PATH && cd ~/bin && curl http://commondatastorage.googleapis.com/git-repo-downloads/repo >~/bin/repo && chmod a+x ~/bin/repo && git clone https://github.com/akhilnarang/scripts && cd scripts && bash setup/android_build_env.sh && . b*/e* && lunch lineage_miatoll-userdebug && brunch lineage_miatoll-userdebug
  ```
  
 # After finished build environment
@@ -55,7 +55,7 @@ repo sync -c -f --force-sync --optimized-fetch --no-tags --no-clone-bundle --pru
 # Github is ghey now
 
 ```
-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
+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
 ```
 
 # Ccache build issues with roms
@@ -91,7 +91,7 @@ sftp teamslow@web.sourceforge.net
 ```
 
 ```
-cd /home/frs/project/projectname/folder-to-upload
+cd /home/frs/project/Scissordragonboyrelease/Miatoll/Crdroid
 ```
 
 
